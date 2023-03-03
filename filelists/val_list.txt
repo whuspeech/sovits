@@ -1,0 +1,10 @@
+DUMMY/wavs/dev/00-0000.wav|0|DUMMY/units/dev/00-0000.npy
+DUMMY/wavs/dev/00-0001.wav|0|DUMMY/units/dev/00-0001.npy
+DUMMY/wavs/dev/00-0002.wav|0|DUMMY/units/dev/00-0002.npy
+DUMMY/wavs/dev/00-0003.wav|0|DUMMY/units/dev/00-0003.npy
+DUMMY/wavs/dev/00-0004.wav|0|DUMMY/units/dev/00-0004.npy
+DUMMY/wavs/dev/00-0005.wav|0|DUMMY/units/dev/00-0005.npy
+DUMMY/wavs/dev/00-0006.wav|0|DUMMY/units/dev/00-0006.npy
+DUMMY/wavs/dev/00-0007.wav|0|DUMMY/units/dev/00-0007.npy
+DUMMY/wavs/dev/00-0008.wav|0|DUMMY/units/dev/00-0008.npy
+DUMMY/wavs/dev/00-0009.wav|0|DUMMY/units/dev/00-0009.npy
