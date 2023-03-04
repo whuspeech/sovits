@@ -89,7 +89,7 @@ class UnitAudioCollate():
         spec_lengths = torch.LongTensor(len(batch))
         wav_lengths = torch.LongTensor(len(batch))
 
-        unit_padded = torch.FloatTensor(len(batch), max_unit_len, 259)
+        unit_padded = torch.FloatTensor(len(batch), max_unit_len, 258)
         spec_padded = torch.FloatTensor(len(batch), batch[0][1].size(0), max_spec_len)
         wav_padded = torch.FloatTensor(len(batch), 1, max_wav_len)
         unit_padded.zero_()
@@ -208,7 +208,7 @@ class UnitAudioSpeakerCollate():
         wav_lengths = torch.LongTensor(len(batch))
         sid = torch.LongTensor(len(batch))
 
-        unit_padded = torch.FloatTensor(len(batch), max_unit_len, 259)
+        unit_padded = torch.FloatTensor(len(batch), max_unit_len, 258)
         spec_padded = torch.FloatTensor(len(batch), batch[0][1].size(0), max_spec_len)
         wav_padded = torch.FloatTensor(len(batch), 1, max_wav_len)
         unit_padded.zero_()
