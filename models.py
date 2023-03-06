@@ -156,7 +156,7 @@ class ContentEncoder(nn.Module):
       n_layers,
       kernel_size,
       p_dropout)
-    self.proj= nn.Conv1d(hidden_channels, out_channels * 2, 1)
+    self.proj = nn.Conv1d(hidden_channels, out_channels * 2, 1)
 
   def forward(self, x, x_lengths):
     x = torch.transpose(x, 1, -1) # [b, h, t]
@@ -521,4 +521,3 @@ class SynthesizerTrn(nn.Module):
     z_hat = self.flow(z_p, y_mask, g=g_tgt, reverse=True)
     o_hat = self.dec(z_hat * y_mask, g=g_tgt)
     return o_hat, y_mask, (z, z_p, z_hat)
-
